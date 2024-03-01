@@ -7,6 +7,7 @@ Lipid production 298K 200ns
   ntf=2,            ! No force evaluation for bonds with hydrogen
   tol=0.0000001,    ! SHAKE tolerance
   nstlim=100000000, ! Number of MD steps
+  # nstlim=250000000, ! Number of MD steps
   ntt=3,            ! Langevin thermostat
   gamma_ln=5.0,     ! Collision frequency for thermostat
   temp0=298.15,     ! Simulation temperature (K)
