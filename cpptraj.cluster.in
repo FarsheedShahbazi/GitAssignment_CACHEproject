@@ -10,7 +10,7 @@ strip :PC
 strip :PA
 strip :OL
 cluster c1 \
- kmeans clusters 10 randompoint maxit 500 \
+ epsilon clusters 10 randompoint maxit 500 \  # eplsion was replaced with Kmean
  rms :1-297@C,N,O,CA,CB&!@H= \
  sieve 10 random \
  out cnumvtime.dat \
